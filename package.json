@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Minimal persistence API for MeritPay: employer employee-config, claim bundles, and claim status.",
   "private": true,
+  "license": "MIT",
   "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
