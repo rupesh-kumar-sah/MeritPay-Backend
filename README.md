@@ -109,6 +109,17 @@ Liveness check.
 
 Note: the true authority for whether a nullifier is spent is always the on-chain check (`payroll.is_nullifier_spent`). The `claimed` flag here is a read-optimized mirror for the frontend, not a security boundary.
 
+## Contributing
+
+Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) and the
+[issue tracker](https://github.com/MeritPay/MeritPay-Backend/issues). By participating you
+agree to the [Code of Conduct](CODE_OF_CONDUCT.md). Security issues: see
+[SECURITY.md](SECURITY.md).
+
+## License
+
+[MIT](LICENSE) © MeritPay contributors
+
 ## Limitations (MVP scope)
 
 - No auth — `employerWallet` is a client-supplied identifier, not verified against a signature. Fine for a hackathon MVP; would need wallet-signature auth before handling real funds.
