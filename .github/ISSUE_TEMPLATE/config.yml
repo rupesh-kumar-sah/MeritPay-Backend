@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/MeritPay/MeritPay-Backend/security/advisories/new
+    about: Report security issues privately — do not open a public issue.
+  - name: MeritPay circuits & Soroban contracts
+    url: https://github.com/Samuel1505/MeritPay/issues
+    about: Bugs in the ZK circuits, trusted setup, or smart contracts belong in the main repo.
+  - name: Question / discussion
+    url: https://github.com/MeritPay/MeritPay-Backend/discussions
+    about: Usage questions and open-ended ideas.

@@ -1,0 +1,49 @@
+name: Feature request / enhancement
+description: Propose new functionality or an improvement
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing: this backend is intentionally small — it persists state the
+        browsers would otherwise lose, and nothing more. Please check
+        [CONTRIBUTING.md → Project scope & non-goals](https://github.com/MeritPay/MeritPay-Backend/blob/main/CONTRIBUTING.md#project-scope--non-goals).
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      description: What can't be done today, or what is painful? Who is affected (employer flow, employee flow, operators)?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Endpoints, schema changes, request/response shapes, behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: A checklist of observable outcomes that would make this "done".
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: This fits the project scope (persistence for the MeritPay client flow)
+          required: true
+        - label: I searched existing issues for a duplicate or related request
+          required: true
