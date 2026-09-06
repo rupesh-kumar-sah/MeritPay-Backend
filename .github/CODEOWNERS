@@ -1,0 +1,13 @@
+# Code owners are automatically requested for review on PRs touching matching paths.
+# Replace the placeholder handle(s) below with the actual maintainer team or users.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositories-permissions-and-settings/customizing-your-repository/about-code-owners
+
+*                       @MeritPay/maintainers
+
+# Data model changes warrant extra scrutiny
+/prisma/                @MeritPay/maintainers
+
+# Security-sensitive surfaces
+/src/middleware/        @MeritPay/maintainers
+/src/lib/validation.ts  @MeritPay/maintainers
+/SECURITY.md            @MeritPay/maintainers
